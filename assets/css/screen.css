@@ -185,7 +185,9 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    /* font-family: "Merriweather", serif; */ /* Original */
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -212,7 +214,9 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */ /* Original */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     text-rendering: geometricPrecision;
 }
 
