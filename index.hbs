@@ -11,6 +11,11 @@
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
+            {{! Adding a centred logo above the title}}
+            {{#if @blog.logo}}
+                <a class="blog-logo" href="{{@blog.url}}"><img width="8em" src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>
+            {{/if}}
+
             <h1 class="page-title">{{@blog.title}}</h1>
             <h2 class="page-description">{{@blog.description}}</h2>
         </div>
