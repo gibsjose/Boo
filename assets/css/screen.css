@@ -215,7 +215,8 @@ h4, h5, h6 {
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     /* font-family: "Open Sans", sans-serif; */ /* Original */
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Righteous', cursive;
     font-weight: 700;
     text-rendering: geometricPrecision;
 }
