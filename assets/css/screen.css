@@ -795,7 +795,7 @@ body.nav-opened .nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 128px;
+    height: 180px;
     padding: 1px 0 5px 0;
     width: auto;
 }
@@ -1649,6 +1649,10 @@ body:not(.post-template) .post-title {
         padding: 4px 0;
     }
 
+    .blog-logo_large img {
+        padding: 16px 0;
+    }
+
     .page-title {
         font-size: 4rem;
         letter-spacing: -1px;
@@ -1787,6 +1791,14 @@ body:not(.post-template) .post-title {
 
     .blog-logo img {
         height: 30px;
+    }
+
+    .blog-logo-large {
+        padding: 20px;
+    }
+
+    .blog-logo-large img {
+        height: 100px;
     }
 
     .menu-button {
