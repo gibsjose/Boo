@@ -769,7 +769,7 @@ body.nav-opened .nav {
 }
 
 .shadowed {
-    -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(12px 12px 4px rgba(0,0,0,0.8));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
