@@ -776,7 +776,7 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
+    height: 64px;
     padding: 1px 0 5px 0;
     width: auto;
 }
@@ -1790,7 +1790,7 @@ body:not(.post-template) .post-title {
     }
 
     .blog-logo img {
-        height: 30px;
+        height: 32px;
     }
 
     .blog-logo-large {
