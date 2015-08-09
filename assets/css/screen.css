@@ -768,11 +768,17 @@ body.nav-opened .nav {
     display: none
 }
 
+.shadowed {
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
 /* Appears in the top left corner of your home page */
 .blog-logo {
     display: block;
     float: left;
-    /* background: rgba(64, 64, 64, 0.8); */ /* Dark grey */
     background: none !important; /* Makes sure there is never a background */
     border: none !important; /* Makes sure there is never a border */
 }
