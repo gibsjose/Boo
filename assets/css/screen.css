@@ -780,8 +780,8 @@ body.nav-opened .nav {
 .blog-logo {
     display: block;
     float: left;
-    background: rgba(64, 64, 64, 0.8); /* Dark grey */
-    border-radius: 10px; /* Rounded corners */
+    background: none !important;
+    border-radius: none !important;
 }
 
 .blog-logo img {
