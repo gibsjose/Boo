@@ -781,6 +781,24 @@ body.nav-opened .nav {
     width: auto;
 }
 
+/* Large logo centred above blog title */
+.blog-logo-large {
+    display: block;
+    float: center;
+    background: none !important; /* Makes sure there is never a background */
+    border: none !important; /* Makes sure there is never a border */
+}
+
+.blog-logo-large img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    height: 128px;
+    padding: 1px 0 5px 0;
+    width: auto;
+}
+
 .menu-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
