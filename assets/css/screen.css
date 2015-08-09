@@ -772,7 +772,7 @@ body.nav-opened .nav {
 .blog-logo {
     display: block;
     float: left;
-    background: #404040; /* Dark grey */
+    background: rgba(64, 64, 64, 0.8); /* Dark grey */
     border: none !important; /* Makes sure there is never a border */
 }
 
