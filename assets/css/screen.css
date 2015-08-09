@@ -782,13 +782,7 @@ body.nav-opened .nav {
     float: left;
     background: none !important;
     border-radius: none !important;
-}
-
-.blog-logo:hover {
-    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6));
-    filter: url(#drop-shadow);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2, Color='#444')";
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2, Color='#444')";
+    /* background-image: url('{{asset "img/post-logo"}}'); */
 }
 
 .blog-logo img {
