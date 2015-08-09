@@ -915,15 +915,15 @@ body.nav-opened .nav {
 .no-cover.main-header {
     min-height: 160px;
     max-height: 40vh;
-    background: #f5f8fa;
+    background: #404040; /* Dark grey */
 }
 
 .no-cover .page-title {
-    color: rgba(0,0,0,0.8);
+    color: rgba(255, 255, 56, 1); /* Yellow */
 }
 
 .no-cover .page-description {
-    color: rgba(0,0,0,0.5);
+    color: rgba(140, 140, 140, 1); /* Light grey */
 }
 
 /* Add subtle load-in animation for content on the home page */
