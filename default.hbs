@@ -19,7 +19,14 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700|Righteous|EB+Garamond&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
-</svg>
+
+    {{! Open links in new tabs }}
+    <script>
+	$(document).ready(function() {
+		$( 'a[href^="http://"]' ).attr( 'target','_blank' );
+        $( 'a[href^="https://"]' ).attr( 'target','_blank' );
+	});
+    </script>
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
