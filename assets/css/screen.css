@@ -1472,12 +1472,8 @@ body:not(.post-template) .post-title {
 }
 .read-next-story:hover .post:before {
     color: #FFFF38;
-    background: #404040;
+    background: #ff0000;
     transition: all 0.2s ease;
-}
-
-.read-next-story:hover {
-    color: #FFFF38;
 }
 
 .read-next-story:before {
