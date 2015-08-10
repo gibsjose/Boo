@@ -1476,6 +1476,10 @@ body:not(.post-template) .post-title {
     transition: all 0.2s ease;
 }
 
+.read-next-story:hover {
+    color: #FFFF38;
+}
+
 .read-next-story:before {
     content: "";
     display: block;
