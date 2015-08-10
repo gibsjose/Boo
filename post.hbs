@@ -10,7 +10,7 @@
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
         {{#if @blog.logo}}
         <a class="blog-logo" href="{{@blog.url}}">
-            <img src="{{asset "img/post-logo.png"}}" alt="{{@blog.title}}" />
+            <img src="{{asset "img/post-logo.png"}}" onmouseover="this.src='{{asset "img/post-logo.png"}}'" onmouseout="this.src='{{asset "img/post-logo-hover.png"}}'" alt="{{@blog.title}}" />
         </a>
         {{/if}}
 
