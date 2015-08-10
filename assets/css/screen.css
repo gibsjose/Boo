@@ -716,7 +716,7 @@ body.nav-opened .nav {
     margin-right: 6px;
 }
 .subscribe-button:hover {
-    background: #404040;
+    background: #32c63d;
 }
 
 
@@ -864,7 +864,7 @@ body.nav-opened .nav {
     color: #404040;
 }
 .nav-closed .no-cover .menu-button:hover {
-    border-color: #404040;
+    border-color: #FFFF38;
     color: #404040;
 }
 
