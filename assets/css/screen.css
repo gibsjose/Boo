@@ -1471,8 +1471,8 @@ body:not(.post-template) .post-title {
     transition: all 0.2s ease;
 }
 .read-next-story:hover .post:before {
-    color: #FFFF38;
-    background: #ff0000;
+    color: #FFFF38 !important;
+    background: #404040;
     transition: all 0.2s ease;
 }
 
