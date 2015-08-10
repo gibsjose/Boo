@@ -1458,7 +1458,7 @@ body:not(.post-template) .post-title {
 
 /* Special styles for posts with no cover images */
 .read-next-story.no-cover {
-    background: #f5f8fa;
+    background: #FFFF38;
 }
 
 .read-next-story.no-cover:before {
