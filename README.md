@@ -38,3 +38,6 @@ Change `username` in
 var disqus_shortname = 'username';
 ```
 to your own Disqus username.
+
+#### 4. Author Metadata
+Unless you want people on your blog being linked to my GitHub and Twitter accounts (I'd be very flattered), you should change the links contained in `post.hbs` under the `author` section.
