@@ -106,6 +106,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Import the font file with the icons in it */
 
+/* Having trouble getting this to work for some reason... */
 /* Boo */
 @font-face {
     font-family: "boo-icons";
