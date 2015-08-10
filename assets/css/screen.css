@@ -860,8 +860,8 @@ body.nav-opened .nav {
 
 /* When the navigation is closed and there is no cover image */
 .nav-closed .no-cover .menu-button {
-    border-color: #FFFF38;
-    color: #FFFF38;
+    border-color: #404040;
+    color: #404040;
 }
 .nav-closed .no-cover .menu-button:hover {
     border-color: #404040;
@@ -873,7 +873,7 @@ body.nav-opened .nav {
     padding: 0 12px;
     background: #111;
     border-color: #111;
-    color: #fff;
+    color: #ffff38;
     -webkit-transform: translate3D(94px, 0, 0);
         -ms-transform: translate3D(94px, 0, 0);
             transform: translate3D(94px, 0, 0);
