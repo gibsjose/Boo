@@ -717,7 +717,7 @@ body.nav-opened .nav {
 }
 .subscribe-button:hover {
     background: #32c63d;
-    color: #FFFF38;
+    color: #FFFF38 !important;
 }
 
 
