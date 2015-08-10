@@ -30,7 +30,7 @@ To use your own logo, simply replace `assets/img/post-logo.png` and `assets/img/
 #### 2. `favicon`
 To use your own icon as the `favicon`, the little icon displayed on tabs and for bookmarks in your browser, simply replace `assets/favicon.ico` with your own artwork.
 
-#### 2. Disqus Comments
+#### 3. Disqus Comments
 To link the Disqus comments to your own account (you will need an account if you don't have one already), you will need to use your own username in both `post.hbs` and `default.hbs`.
 
 Change `username` in
