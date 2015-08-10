@@ -1026,6 +1026,7 @@ body:not(.post-template) .post-title {
 }
 
 /* @HERE */
+/*
 .post-header {
     position: relative;
     display: table;
@@ -1045,8 +1046,9 @@ body:not(.post-template) .post-title {
 .post-header {
     min-height: 140px;
     max-height: 40vh;
-    background: #FFFF38; /* Yellow */
+    background: #FFFF38;
 }
+*/
 
 .post-title a {
     text-decoration: none;
