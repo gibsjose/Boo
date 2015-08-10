@@ -1,4 +1,12 @@
 {
   "name": "Boo",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "author": {   "name" : "Joe Gibson",
+                "email" : "gibsjose@mail.gvsu.edu", 
+                "url" : "http://www.gibsjose.com"
+            },
+  "description": "Boo - A clean and simple Ghost blog theme",
+  "keywords": "boo, ghost, casper, blog, theme, gibsjose",
+  "homepage": "www.github.com/gibsjose/Boo",
+  "license": "MIT"
 }
