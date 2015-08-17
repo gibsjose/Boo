@@ -12,7 +12,7 @@
                 <img src="{{asset "img/post-logo.png"}}" onmouseover="this.src='{{asset "img/post-logo-hover.png"}}'" onmouseout="this.src='{{asset "img/post-logo.png"}}'" alt="{{@blog.title}}" />
             </a>
             {{/if}}
-            
+
             {{#if @blog.navigation}}
                 <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
             {{/if}}
@@ -32,6 +32,8 @@
         <div class="author-meta">
             {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
             {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
+            <span class="author-link"><a href="https://github.com/gibsjose"><i class="fa fa-github"></i> @gibsjose</a></span>
+            <span class="author-link"><a href="https://twitter.com/gibsjose"><i class="fa fa-twitter"></i> @gibsjose</a></span>
             <span class="author-stats"><i class="icon-stats"></i> {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}</span>
         </div>
     </section>
