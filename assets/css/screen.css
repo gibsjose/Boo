@@ -824,9 +824,9 @@ body.nav-opened .nav {
 
 /* Appears in the top left corner of your home page */
 .blog-logo {
-    position: fixed;
+    /*position: fixed;
     top: 32px;
-    left: 32px;
+    left: 32px;*/
 
     display: block;
     float: left;
