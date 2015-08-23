@@ -7,7 +7,7 @@ Boo is based off of [Casper](https://github.com/TryGhost/Casper), the default th
 For a **detailed** look at how I created this theme, with tons of code samples and instructions, see my blog post on [Ghost Themes](http://microamps.gibsjose.com/ghost-themes). There are also other posts there about setting up a host (through DigitalOcean) for your blog, and adding security to your site with CloudFlare, among other things.
 
 ## Installation
-To install this theme, download the latest release zip/tarball into your `ghost` themes directory and extract it, then restart `ghost`.
+To install this theme, download the latest release zip/tarball into your `ghost` themes directory and extract it, then restart `ghost` with `sudo service ghost restart`.
 
 On Ubuntu:
 ```bash
