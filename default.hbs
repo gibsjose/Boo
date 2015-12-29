@@ -60,7 +60,11 @@
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
+    {{! Prism.js syntax highlighting }}
     <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+
+    {{! MathJax support }}
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     {{! The main JavaScript file for Boo }}
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
